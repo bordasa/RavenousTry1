@@ -15,8 +15,8 @@ const business = {
 function Business() {
     return (    
         <div>
-            <image src={business.image} />
-            <h1>{business.imageSrc}</h1>
+            <image src={business.imageSrc} />
+            <h1>{business.name}</h1>
                 <p>{business.address}</p>
                 <p>{business.city}, {business.state}</p>
                 <p>{business.zipcode}</p>
