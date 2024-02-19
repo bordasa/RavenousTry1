@@ -1,8 +1,18 @@
 import React from 'react';
 
+import Business from './business.js'
+
 function BusinessList() {
     return (
-        pass
+        <div>
+            < Business />
+            < Business />
+            < Business />
+            < Business />
+            < Business />
+            < Business />
+        </div>
+
     );
 };
 
